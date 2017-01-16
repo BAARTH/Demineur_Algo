@@ -1,0 +1,14 @@
+body {
+    background: #000;
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+}
+
+.jeu {
+    width: 500px;
+    height: 500px;
+    background-color: #ececec;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
