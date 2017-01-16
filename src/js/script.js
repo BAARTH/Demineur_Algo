@@ -1,3 +1,6 @@
+var jeu = document.querySelector('.jeu');
+console.log(jeu);
+
 var tab = [];
 
 
@@ -25,5 +28,5 @@ for (i = 0; i < 10; i++) {
 }
 
 for (i = 0; i < tab.length; i++) {
-    document.write(tab[i] + '</br>');
+    jeu.innerHTML += tab[i] + '</br>';
 }
