@@ -13,3 +13,12 @@ body {
     transform: translateX(-50%);
     font-size: 20px;
 }
+
+.ceil{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: deeppink;
+}
